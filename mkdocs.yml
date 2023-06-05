@@ -70,9 +70,14 @@ extra:
       link: https://github.com/xiaoasen
   generator: false
 
+  web:
+    domain: http://192.168.200.129
+    port_prompt: 9000
+
 # Plugins
 plugins:
   - search
+  - macros
 
 comments:
     enabled: true
@@ -124,6 +129,7 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/neoteroi.css
+  
 
 # Page tree
 nav:
