@@ -1,0 +1,131 @@
+# Project information
+site_name: 你好，书本
+site_url: http://chat.kaisen.me:8000/
+site_author: MiniKaisen
+site_description: 有趣的拆书
+docs_dir: build
+# Repository
+repo_name: xiaoasen/hello-books
+repo_url: https://github.com/xiaoasen/hello-books
+edit_uri: https://github.com/xiaoasen/hello-books/tree/main/docs
+
+# Copyright
+copyright: Copyright &copy; 2023 MiniKaisen
+
+# Configuration
+theme:
+  name: material
+  custom_dir: build/overrides
+  language: zh
+  features:
+    # - announce.dismiss
+    - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: white
+      # accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      # primary: grey
+      # accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Noto Sans SC
+    code: Fira Code
+  #favicon: assets/images/favicon.png
+  #logo: assets/images/logo.png
+  icon:
+    logo: logo
+    repo: fontawesome/brands/github
+    edit: material/file-edit-outline
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/xiaoasen
+  generator: false
+
+# Plugins
+plugins:
+  - search
+
+comments:
+    enabled: true
+    # defaults to utterances unless replaced with mode: giscus
+    mode: giscus
+    type: issues
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+   # - pymdownx.magiclink:
+  #     repo_url_shorthand: true
+  #     user: squidfunk
+  #     repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+  - neoteroi.cards
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/neoteroi.css
+
+# Page tree
+nav:
+  - 首页: index.md
+  - 你好！计算机: computer.md
