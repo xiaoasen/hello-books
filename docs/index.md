@@ -18,7 +18,7 @@
 - title: 你好！数据结构
   content: 支持多种语言实现，代码皆可一键运行。
   image: ./assets/cover/data_struct_cover.png
-  url: {{ web.domain }}:{{web.port_prompt}}
+  url: {{ web.domain_krahets }}
 
 - title: 你好！芯片设计
   content: 把自己看成是计算机结构设计师，而不是计算机程序员。。
@@ -28,6 +28,25 @@
 ::/cards::
 
 ## 你好！文学
+
+::cards::
+
+- title: 你好！希腊神话与传说
+  content: 。
+  image: ./assets/cover/GreekAndRomanMythology.png
+  url: {{ web.domain }}:{{web.port_prompt}}
+
+- title: 你好！数据结构
+  content: 支持多种语言实现，代码皆可一键运行。
+  image: ./assets/cover/data_struct_cover.png
+  url: {{ web.domain_krahets }}
+
+- title: 你好！芯片设计
+  content: 把自己看成是计算机结构设计师，而不是计算机程序员。。
+  image: ./assets/cover/chip_design_cover.png
+  url: {{ web.domain }}:{{web.port_prompt}}
+
+::/cards::
 
 ## 你好！数学
 
