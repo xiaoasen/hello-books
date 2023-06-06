@@ -1,28 +1,34 @@
-::cards::
+# 系列书本
 
-- title: Zeus
-  content: Lorem ipsum dolor sit amet.
-  image: ./assets/test/zeus.png
-  url: https://en.wikipedia.org/wiki/Zeus
+本项目旨在创建一系列开源免费、有趣生动的书本讲解教程。
 
-- title: Athena
-  content: Lorem ipsum dolor sit amet.
-  image: ./assets/test/athena.png
+- 全书采用动画图解或视频演示，结构化地讲解书本知识，内容清晰易懂、学习曲线平滑；
+- 有关的程序源代码皆可一键运行，支持多种语言；
+- 鼓励读者在章节讨论区互帮互助、共同进步，提问与评论通常可在两日内得到回复；
 
-- title: Poseidon
-  content: Lorem ipsum dolor sit amet.
-  image: ./assets/test/poseidon.png
+## 你好！计算机
 
-- title: Artemis
-  content: Lorem ipsum dolor sit amet.
-  image: ./assets/test/artemis.png
+## 你好！文学
 
-- title: Ares
-  content: Lorem ipsum dolor sit amet.
-  image: ./assets/test/ares.png
+## 你好！数学
 
-- title: Nike
-  content: Lorem ipsum dolor sit amet.
-  image: ./assets/test/nike.png
+## 你好！英语
 
-::/cards::
+## 你好！物理
+
+## 你好！化学
+
+## 你好！生物
+
+## 你好！历史
+
+## 你好！政治
+
+## 你好！地理
+
+## 你好！音乐
+
+## 你好！美术
+
+## 你好！体育
+

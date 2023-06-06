@@ -40,7 +40,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+    - toc.integrate
   palette:
     - scheme: default
       primary: white
@@ -133,5 +133,4 @@ extra_css:
 
 # Page tree
 nav:
-  - 首页: index.md
-  - 你好！计算机: computer.md
+  - 系列书本: index.md
