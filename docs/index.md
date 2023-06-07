@@ -32,24 +32,43 @@
 
 ::cards::
 
-- title: 你好！希腊神话与传说
-  content: 。
-  image: ./assets/cover/GreekAndRomanMythology.png
+- title: 你好！希腊神话
+  content: 
+  image: ./assets/cover/greek_mythology_conver.png
   url: {{ web.domain }}:{{web.port_prompt}}
 
-- title: 你好！数据结构
-  content: 支持多种语言实现，代码皆可一键运行。
-  image: ./assets/cover/data_struct_cover.png
+- title: 你好！伊利亚特
+  content: 
+  image: ./assets/cover/Iliad_cover.png
   url: {{ web.domain_krahets }}
 
-- title: 你好！芯片设计
-  content: 把自己看成是计算机结构设计师，而不是计算机程序员。。
-  image: ./assets/cover/chip_design_cover.png
+- title: 你好！奥德修纪
+  content: 
+  image: ./assets/cover/odyssey_cover.png
   url: {{ web.domain }}:{{web.port_prompt}}
 
 ::/cards::
 
 ## 你好！数学
+
+::cards::
+
+- title: 你好！高等数学
+  content: 
+  image: ./assets/cover/advanced_mathematics_cover.png
+  url: {{ web.domain }}:{{web.port_prompt}}
+
+- title: 你好！线性代数
+  content: 
+  image: ./assets/cover/linear_algebra_cover.png
+  url: {{ web.domain_krahets }}
+
+- title: 你好！概率统计
+  content: 
+  image: ./assets/cover/mathematical_statistics_cover.png
+  url: {{ web.domain }}:{{web.port_prompt}}
+
+::/cards::
 
 ## 你好！英语
 

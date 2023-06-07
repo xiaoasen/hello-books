@@ -1340,7 +1340,8 @@
     font-size: 1rem;
     font-weight: bold;
     margin: 4px 0 8px 0;
-    line-height: 22px
+    line-height: 22px;
+    text-align: center;
 }
 
 .nt-card-content {
