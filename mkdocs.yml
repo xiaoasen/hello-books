@@ -79,7 +79,8 @@ extra:
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - macros
+  - macros:
+      include_dir: docs/include
 
   #- gallery:
   #    examples_dirs: docs/examples          # path to your example scripts
