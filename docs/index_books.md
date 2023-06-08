@@ -1,3 +1,7 @@
+---
+title: 书屋
+---
+
 # 系列书本
 
 本项目旨在创建一系列开源免费、有趣生动的书本讲解教程。
@@ -17,17 +21,17 @@
 - title: 你好！希腊神话
   content: 
   image: ./assets/cover/greek_mythology_conver.png
-  url: {{ web.domain }}:{{web.port_prompt}}
+  url: {{ web.domain }}:{{web.port}}
 
 - title: 你好！伊利亚特
   content: 
   image: ./assets/cover/Iliad_cover.png
-  url: {{ web.domain_krahets }}
+  url: {{ web.domain }}:{{web.port}}
 
 - title: 你好！奥德修纪
   content: 
   image: ./assets/cover/odyssey_cover.png
-  url: {{ web.domain }}:{{web.port_prompt}}
+  url: {{ web.domain }}:{{web.port}}
 
 ::/cards::
 
@@ -38,17 +42,17 @@
 - title: 你好！高等数学
   content: 
   image: ./assets/cover/advanced_mathematics_cover.png
-  url: {{ web.domain }}:{{web.port_prompt}}
+  url: {{ web.domain }}:{{web.port}}
 
 - title: 你好！线性代数
   content: 
   image: ./assets/cover/linear_algebra_cover.png
-  url: {{ web.domain_krahets }}
+  url: {{ web.domain }}:{{web.port}}
 
 - title: 你好！概率统计
   content: 
   image: ./assets/cover/mathematical_statistics_cover.png
-  url: {{ web.domain }}:{{web.port_prompt}}
+  url: {{ web.domain }}:{{web.port}}
 
 ::/cards::
 

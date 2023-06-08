@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: 欢迎来到开森书库
+title: 首页
 ---
 
 开森书库
