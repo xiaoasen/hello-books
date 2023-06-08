@@ -2,7 +2,7 @@
 site_name: 你好，书本
 site_url: http://chat.kaisen.me:8000/
 site_author: MiniKaisen
-site_description: 有趣的拆书
+site_description: 阅读是一种美好的体验，它可以带给我们无尽的知识与智慧。通过读书，我们能够拓展视野，更好地了解世界的多样性与丰富性，引领我们走向成功。阅读不仅能够丰富我们的内心，还能提高我们的思维和沟通能力。它将我们带到不同的时间、空间和文化，让我们体验前人的智慧，拥抱未来的可能。阅读可以陶冶我们的情操，激发我们的创造力与想象力。在安静的阅读时光中，我们可以暂时忘却繁忙的现实，寻求心灵的慰藉与平静。
 docs_dir: docs
 # Repository
 repo_name: xiaoasen/hello-books
@@ -31,8 +31,8 @@ theme:
     # - navigation.instant
     # - navigation.prune
     # - navigation.sections
-    # - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - navigation.footer
     - navigation.tracking
@@ -40,7 +40,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    - toc.integrate
+    #- toc.integrate
   palette:
     - scheme: default
       primary: white
@@ -141,5 +141,7 @@ extra_css:
 
 # Page tree
 nav:
-  - 系列书本: index.md
-  #- My Gallery: generated/gallery  # This node will automatically be named and have sub-nodes.
+  - 首页: index.md
+  - 开森书库: index_books.md
+
+
