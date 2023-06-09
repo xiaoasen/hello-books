@@ -10,10 +10,10 @@
 {% endif %}
 <nav class="{{ class }}" aria-label="{{ lang.t('nav') }}" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-nav__button md-logo" aria-label="{{ config.site_name }}" data-md-component="logo">
-      {% include "partials/logo.html" %}
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" class="md-nav__button md-logo" data-md-component="logo">
+      书屋
     </a>
-    {{ config.site_name }}
+    {{ page.title }}
   </label>
   {% if config.repo_url %}
     <div class="md-nav__source">
@@ -22,9 +22,11 @@
   {% endif %}
   <ul class="md-nav__list" data-md-scrollfix>
     {% for nav_item in nav %}
-      {% set path = "__nav_" ~ loop.index %}
-      {% set level = 1 %}
-      {% include "partials/nav-item.html" %}
+      {% if nav_item.active %}
+        {% set path = "__nav_" ~ loop.index %}
+        {% set level = 1 %}
+        {% include "partials/nav-item.html" %}
+      {% endif %}
     {% endfor %}
   </ul>
 </nav>
