@@ -21,7 +21,7 @@ title: 书屋
 - title: 你好！希腊神话
   content: 
   image: ./assets/cover/greek_mythology_conver.png
-  url: {{ web.domain }}:{{web.port}}
+  url: {{ web.domain }}:{{web.port}}/setup/
 
 - title: 你好！伊利亚特
   content: 

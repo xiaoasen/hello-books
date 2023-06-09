@@ -72,7 +72,7 @@ extra:
 
   web:
     domain: http://192.168.200.129
-    port: 8000
+    port: 8080
     domain_algo: https://www.hello-algo.com/
     domain_prompt: https://learnprompting.org/zh-Hans/docs/intro
 
